@@ -85,6 +85,11 @@ during business hours — correctly assessed AfterHours = false.
 No false positives generated during tuning. Rule confirmed 
 functional against real production telemetry.
 
+## Evidence
+
+**Sentinel Detection Output — Single Deduplicated Row**
+![Privileged Logon Detection Results](sentinel-privileged-logon-results.png)
+
 ## So What
 A domain admin account authenticating via RDP outside 
 business hours is one of the highest-confidence indicators 
